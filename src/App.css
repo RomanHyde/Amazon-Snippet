@@ -1,8 +1,38 @@
-.App {
-  text-align: center;
+Body {
+  background-color:#ebeded;
 }
 
-.App-logo {
+.App {
+
+  /* text-align: center; */
+  width: 2156px;
+  /* display: flex;
+  flex-direction: row; */
+}
+
+
+
+
+.grid-container {
+  display: grid;
+  grid-gap: 20px 20px;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 150px 150px;
+  height: 350px;
+  width: 425px;
+  padding-top: 50px;
+  padding-bottom:50px;
+  background-color: #fff;
+}
+
+p {font-weight: bold;}
+
+a{
+  text-decoration: none;
+
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +65,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
